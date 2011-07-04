@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>    
+        <Mashpress_Twig>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Mashpress_Twig>
+    </modules>
+</config>

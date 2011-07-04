@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<modules>
+		<Mashpress_Twig>
+			<version>0.1</version>
+		</Mashpress_Twig>
+	</modules>
+	<global>
+		<blocks>
+			<twig>
+				<class>Mashpress_Twig_Block</class>
+			</twig>
+		</blocks>
+		<helpers>
+            <twig>
+                <class>Mashpress_Twig_Helper</class>
+            </twig>
+        </helpers>
+	</global>
+</config>

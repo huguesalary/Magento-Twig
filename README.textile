@@ -41,7 +41,7 @@ However, in your template, you have to use the name of the function without the 
 
 h2. LICENCE
 
-"Magento-Twig" The Twig integration of Magento.
+"Magento-Twig" The Twig integration for Magento.
 Copyright (C) 2011 Hugues Alary <hugues.alary@gmail.com>
 
 This program is free software: you can redistribute it and/or modify

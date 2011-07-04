@@ -15,8 +15,6 @@ h2. USAGE
 
 When writing a block for Magento, just extend your block from Mashpress_Twig_Block_Template.
 
-I.E.:
-
 <pre>
 class MyCompany_MyModule_Block_MyBlock extends Mashpress_Twig_Block_Template
 {

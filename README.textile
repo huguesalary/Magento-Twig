@@ -1,25 +1,29 @@
-This is the integration of Twig for Magento.
+h1. Magento-Twig
+
+The integration of Twigi, for Magento.
 
 Tested under Magento 1.4.1.1
 
 
-== INSTALLATION ==
+h2. INSTALLATION
 - Download Twig @http://github.com/fabpot/twig
 - Copy the lib/Twig directory to your magento lib/ directory
 - Copy this extension to your Magento directory
 
-== USAGE ==
+h2. USAGE
 
 When writing a block for Magento, just extend your block from Mashpress_Twig_Block_Template.
 
 I.E.:
-
+<pre>
 class MyCompany_MyModule_Block_MyBlock extends Mashpress_Twig_Block_Template
 {
 }
+</pre>
 
 If you want to give access to a function written in your block to your template, just add a "TwigExtention" suffix to your function:
 
+<pre>
 class MyCompany_MyModule_Block_MyBlock extends Mashpress_Twig_Block_Template
 {
 	public function myFunctionTwigExtention()
@@ -27,13 +31,15 @@ class MyCompany_MyModule_Block_MyBlock extends Mashpress_Twig_Block_Template
 		return "Hello";
 	}
 }
+</pre>
 
 However, in your template, you have to use the name of the function without the "TwigExtension" suffix:
 
+<pre>
 {{ myFunction() }}
+</pre>
 
-
-== LICENCE ==
+h2. LICENCE
 "Magento-Twig" The Twig integration of Magento.
 Copyright (C) 2011 Hugues Alary <hugues.alary@gmail.com>
 

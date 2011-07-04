@@ -1,6 +1,6 @@
 h1. Magento-Twig
 
-The integration of Twigi, for Magento.
+The integration of Twig, for Magento.
 
 Tested under Magento 1.4.1.1
 

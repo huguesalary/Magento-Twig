@@ -7,7 +7,7 @@ Tested under Magento 1.4.1.1
 
 h2. INSTALLATION
 
-- Download Twig @http://github.com/fabpot/twig
+- Download "Twig":http://github.com/fabpot/twig
 - Copy the lib/Twig directory to your magento lib/ directory
 - Copy this extension to your Magento directory
 

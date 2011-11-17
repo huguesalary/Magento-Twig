@@ -8,8 +8,12 @@ class Mashpress_Twig_Block_Template extends Mage_Core_Block_Template implements 
     protected function _construct()
     {
         parent::_construct();
-        require_once 'Twig/lib/Twig/Autoloader.php';
-		Twig_Autoloader::register();
+		
+        if (!class_exists('Twig_Loader_Filesystem')) {
+            require_once 'Twig/lib/Twig/Autoloader.php';
+		    Twig_Autoloader::register();
+        }
+		
 		$this->_loader = new Twig_Loader_Filesystem(Mage::getBaseDir('design'));
 		$this->_twig = new Twig_Environment($this->_loader);
 		$this->_twig->addExtension($this);
